@@ -6,6 +6,6 @@ void main(List<String> args) {
     print('$number is negative');
   }
   else{
-    print('$number is $number');
+    print('$number is zero');
   }
 }
