@@ -1,6 +1,5 @@
 void main() {
   String str = "Holberton School";
-  print('$str$str$str');
-  print(str.substring(0, 9));
-  print('\n');
+  String sub = str.substring(0, 9);
+  print('$str$str$str\n$sub\n');
 }
