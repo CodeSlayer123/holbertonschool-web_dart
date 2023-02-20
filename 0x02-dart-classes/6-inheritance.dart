@@ -18,6 +18,8 @@ class User extends Password {
 
    @override
    String toString() {
-    return 'User(id : $id ,name: $name,  age: $age, height: $height), Password: ${user_password}';
+    final password = Password(password: user_password);
+
+    return 'User(id : $id ,name: $name,  age: $age, height: $height), Password: ${password.isValid()}';
   }
 }
