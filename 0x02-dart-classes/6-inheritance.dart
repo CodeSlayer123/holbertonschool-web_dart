@@ -20,6 +20,6 @@ class User extends Password {
    String toString() {
     final password = Password(password: user_password);
 
-    return 'User(id : $id ,name: $name,  age: $age, height: $height), Password: ${password.isValid()}';
+    return 'User(id: $id, name: $name, age: $age, height: $height), Password: ${password.isValid()}';
   }
 }
