@@ -14,7 +14,7 @@ Future<bool> checkCredentials() =>
 Future<String> greetUser() async {
   try {
     //return 'Hello ${json.decode(await fetchUserData())['username']}';
-    return '3.14 Battery street';
+    return '3.14 Battery street\n';
 
   } catch (err) {
     return ('error caught: $err');
